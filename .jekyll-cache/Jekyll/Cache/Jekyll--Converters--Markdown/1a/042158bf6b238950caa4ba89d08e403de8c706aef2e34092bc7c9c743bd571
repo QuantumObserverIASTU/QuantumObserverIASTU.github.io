@@ -1,0 +1,41 @@
+I"o<h2 id="主要内容">主要内容</h2>
+
+<p>本站包含对一些科学问题的非正式介绍, 对经典或最新结果尤其是其间联系的评论, 以及针对志在成为专业研究人员的、爱好理论物理的学生的建议等内容.</p>
+
+<h2 id="功能展示">功能展示</h2>
+
+<h3 id="数学公式">数学公式</h3>
+
+<p>薛定谔方程</p>
+
+\[\mathrm{i}\hbar\frac{\partial }{\partial t}\psi=\hat{H}\psi.\]
+
+<p>给出了波函数 $\psi\left(x,t\right)$ 在哈密顿量 $\hat{H}$ 下的时间演化.</p>
+
+<h3 id="表格">表格</h3>
+
+<p>本站内容包括</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>序号</th>
+      <th>内容</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>科普</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>评论</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>学习建议</td>
+    </tr>
+  </tbody>
+</table>
+:ET
