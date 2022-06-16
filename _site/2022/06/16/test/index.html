@@ -273,9 +273,30 @@
 
 				<h2 id="功能测试">功能测试</h2>
 
-<p>薛定谔方程为 $x$. 为什么行间公式不能正常显示?</p>
+<p>薛定谔方程为</p>
 
-\[x\hbar\frac{\partial }{\partial t}\psi=H\psi.\]
+\[\mathrm{i}\hbar\frac{\partial }{\partial t}\psi=H\psi.\]
+
+<p>表格</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>序号</th>
+      <th>内容</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>科普</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>科研评论</td>
+    </tr>
+  </tbody>
+</table>
 
 
                 <hr style="visibility: hidden;">
@@ -349,7 +370,7 @@
 
 <!-- add support for mathjax by voleking-->
 
-  <script type="text/x-mathjax-config">
+  <!-- <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
     TeX: {
       equationNumbers: {
@@ -368,11 +389,25 @@
 </script>
 <script type="text/javascript"
         src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_SVG">
-</script>
-
-<!-- <script type="text/javascript"
-        src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script> -->
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    jax: ["input/TeX","input/MathML","output/SVG", "output/CommonHTML"],
+extensions: ["tex2jax.js","mml2jax.js","MathMenu.js","MathZoom.js", "CHTML-preview.js"],
+TeX: {
+  extensions: ["AMSmath.js","AMSsymbols.js","noErrors.js","noUndefined.js"]
+},
+  tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+      processEscapes: true,
+      processEnvironments: true
+    },
+    "HTML-CSS": { availableFonts: ["TeX"] }
+  });
+</script>
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML-full"></script>
 
 
 
@@ -451,7 +486,7 @@
                 <p class="copyright text-muted">
                     Copyright &copy; Quantum Observer 2022
                     <br>
-                    Powered by <a href="http://huangxuan.me">Hux Blog</a> |
+                    Powered by <a href="https://github.com/Huxpro/huxpro.github.io">Huxpro</a> |
                     <iframe style="margin-left: 2px; margin-bottom:-5px;" frameborder="0" scrolling="0" width="100px"
                         height="20px"
                         src="https://ghbtns.com/github-btn.html?user=huxpro&repo=huxpro.github.io&type=star&count=true">

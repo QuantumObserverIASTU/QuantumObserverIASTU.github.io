@@ -2,5 +2,5 @@
 
 <p>薛定谔方程为 $x$. 为什么行间公式不能正常显示?</p>
 
-\[x\hbar\frac{\partial }{\partial t}\psi=H\psi.\]
+\[i\hbar\frac{\partial }{\partial t}\psi=H\psi.\]
 :ET

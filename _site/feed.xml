@@ -5,17 +5,38 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 16 Jun 2022 15:04:47 +0800</pubDate>
-    <lastBuildDate>Thu, 16 Jun 2022 15:04:47 +0800</lastBuildDate>
+    <pubDate>Thu, 16 Jun 2022 16:44:06 +0800</pubDate>
+    <lastBuildDate>Thu, 16 Jun 2022 16:44:06 +0800</lastBuildDate>
     <generator>Jekyll v4.2.1</generator>
     
       <item>
         <title>本站说明</title>
         <description>&lt;h2 id=&quot;功能测试&quot;&gt;功能测试&lt;/h2&gt;
 
-&lt;p&gt;薛定谔方程为 $x$. 为什么行间公式不能正常显示?&lt;/p&gt;
+&lt;p&gt;薛定谔方程为&lt;/p&gt;
 
-\[x\hbar\frac{\partial }{\partial t}\psi=H\psi.\]
+\[\mathrm{i}\hbar\frac{\partial }{\partial t}\psi=H\psi.\]
+
+&lt;p&gt;表格&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;序号&lt;/th&gt;
+      &lt;th&gt;内容&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;科普&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;科研评论&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 </description>
         <pubDate>Thu, 16 Jun 2022 00:00:00 +0800</pubDate>
         <link>http://localhost:4000/2022/06/16/test/</link>
