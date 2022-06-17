@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Quantum Observer</title>
+    <title>Quantum Observers</title>
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 16 Jun 2022 23:56:28 +0800</pubDate>
-    <lastBuildDate>Thu, 16 Jun 2022 23:56:28 +0800</lastBuildDate>
+    <pubDate>Fri, 17 Jun 2022 15:18:46 +0800</pubDate>
+    <lastBuildDate>Fri, 17 Jun 2022 15:18:46 +0800</lastBuildDate>
     <generator>Jekyll v4.2.1</generator>
     
       <item>
