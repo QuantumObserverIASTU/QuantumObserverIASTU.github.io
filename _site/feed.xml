@@ -5,8 +5,8 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 17 Jun 2022 16:26:44 +0800</pubDate>
-    <lastBuildDate>Fri, 17 Jun 2022 16:26:44 +0800</lastBuildDate>
+    <pubDate>Fri, 17 Jun 2022 16:47:15 +0800</pubDate>
+    <lastBuildDate>Fri, 17 Jun 2022 16:47:15 +0800</lastBuildDate>
     <generator>Jekyll v4.2.1</generator>
     
       <item>
@@ -21,9 +21,16 @@
 
 &lt;p&gt;薛定谔方程&lt;/p&gt;
 
-\[\mathrm{i}\hbar\frac{\partial }{\partial t}\psi=\hat{H}\psi.\]
+\[\begin{equation}
+  \mathrm{i}\hbar\frac{\partial }{\partial t}\psi=\hat{H}\psi
+  \label{eq: schrodinger}
+\end{equation}\]
 
-&lt;p&gt;给出了波函数 $\psi\left(x,t\right)$ 在哈密顿量 $\hat{H}$ 下的时间演化.&lt;/p&gt;
+&lt;p&gt;给出了波函数 $\psi\left(x,t\right)$ 在哈密顿量 $\hat{H}$ 下的时间演化. 不编号的公式例如&lt;/p&gt;
+
+\[\partial_\mu F^{\mu\nu}=J^\nu.\]
+
+&lt;p&gt;可以引用公式 $\eqref{eq: schrodinger}$. 实现方式见 &lt;a href=&quot;https://github.com/QuantumObserverIASTU/QuantumObserverIASTU.github.io/blob/main/_posts/2022-06-16-test.md&quot;&gt;md 文件&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;包含数学公式的文章, 需在文件头部开启 mathjax 功能&lt;/p&gt;
 &lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1

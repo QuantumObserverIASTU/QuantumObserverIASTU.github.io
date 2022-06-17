@@ -287,9 +287,16 @@
 
 <p>薛定谔方程</p>
 
-\[\mathrm{i}\hbar\frac{\partial }{\partial t}\psi=\hat{H}\psi.\]
+\[\begin{equation}
+  \mathrm{i}\hbar\frac{\partial }{\partial t}\psi=\hat{H}\psi
+  \label{eq: schrodinger}
+\end{equation}\]
 
-<p>给出了波函数 $\psi\left(x,t\right)$ 在哈密顿量 $\hat{H}$ 下的时间演化.</p>
+<p>给出了波函数 $\psi\left(x,t\right)$ 在哈密顿量 $\hat{H}$ 下的时间演化. 不编号的公式例如</p>
+
+\[\partial_\mu F^{\mu\nu}=J^\nu.\]
+
+<p>可以引用公式 $\eqref{eq: schrodinger}$. 实现方式见 <a href="https://github.com/QuantumObserverIASTU/QuantumObserverIASTU.github.io/blob/main/_posts/2022-06-16-test.md">md 文件</a>.</p>
 
 <p>包含数学公式的文章, 需在文件头部开启 mathjax 功能</p>
 <div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
@@ -488,15 +495,18 @@
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
     jax: ["input/TeX","input/MathML","output/SVG", "output/CommonHTML"],
-extensions: ["tex2jax.js","mml2jax.js","MathMenu.js","MathZoom.js", "CHTML-preview.js"],
-TeX: {
-  extensions: ["AMSmath.js","AMSsymbols.js","noErrors.js","noUndefined.js"]
-},
-  tex2jax: {
-      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-      displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
-      processEscapes: true,
-      processEnvironments: true
+    extensions: ["tex2jax.js","mml2jax.js","MathMenu.js","MathZoom.js", "CHTML-preview.js"],
+    TeX: {
+      extensions: ["AMSmath.js","AMSsymbols.js","noErrors.js","noUndefined.js"],
+      equationNumbers: {
+        autoNumber: "AMS"
+      }
+    },
+    tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+        displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+        processEscapes: true,
+        processEnvironments: true
     },
     "HTML-CSS": { availableFonts: ["TeX"] }
   });

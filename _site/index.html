@@ -257,9 +257,9 @@
 
 薛定谔方程
 
-\[\mathrm{i}\hbar\frac{\partial }{\partial t}\psi=\hat{H}\psi.\]
-
-给出了波函数 $\psi\left(x,t\right)$ 在哈密...
+\[\begin{equation}
+  \mathrm{i}\hbar\frac{\partial }{\partial t}\psi=\hat{H}\psi
+  \label{eq: schro...
             
         </div>
     </a>
@@ -383,15 +383,18 @@
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
     jax: ["input/TeX","input/MathML","output/SVG", "output/CommonHTML"],
-extensions: ["tex2jax.js","mml2jax.js","MathMenu.js","MathZoom.js", "CHTML-preview.js"],
-TeX: {
-  extensions: ["AMSmath.js","AMSsymbols.js","noErrors.js","noUndefined.js"]
-},
-  tex2jax: {
-      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-      displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
-      processEscapes: true,
-      processEnvironments: true
+    extensions: ["tex2jax.js","mml2jax.js","MathMenu.js","MathZoom.js", "CHTML-preview.js"],
+    TeX: {
+      extensions: ["AMSmath.js","AMSsymbols.js","noErrors.js","noUndefined.js"],
+      equationNumbers: {
+        autoNumber: "AMS"
+      }
+    },
+    tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+        displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+        processEscapes: true,
+        processEnvironments: true
     },
     "HTML-CSS": { availableFonts: ["TeX"] }
   });
