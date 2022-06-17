@@ -1,6 +1,41 @@
-I"�<h2 id="主要内容">主要内容</h2>
+I"�<h2 id="主要内容">主要内容</h2>
 
 <p>本站包含对一些科学问题的科普性介绍, 对经典或最新结果尤其是其间联系的评论, 以及针对志在成为专业研究人员的、爱好理论物理的学生的建议等内容.</p>
+
+<h2 id="发表短文">发表短文</h2>
+
+<p>小组内成员在其 GitHub 账号加入该项目合作者名单后, 可按照下面介绍的方式在本站发表短文, 这里默认操作者掌握 GitHub 的基本操作方式, 如不掌握, 可参考知乎文章 <a href="https://zhuanlan.zhihu.com/p/337959303">GitHub 入门指南</a>. 下面我们分别介绍不进行本地预览与进行本地预览的方式.</p>
+
+<h3 id="不进行本地预览">不进行本地预览</h3>
+
+<p>本地预览, 即在发布之前, 通过 localhost 在本机上预览发布后的效果. 不进行本地预览, 则只需在 <code class="language-plaintext highlighter-rouge">\_posts</code> 目录中建立 <code class="language-plaintext highlighter-rouge">yyyy-mm-dd-title.md</code> 的文件, 文件头应为</p>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+</pre></td><td class="rouge-code"><pre>---
+layout: post
+title: "This is title"
+subtitle: "This is subtitle"
+author: "Your Name"
+header-img: "img/thisfilename/head.jpg"
+header-mask: 0.4
+mathjax: true
+tags:
+  - tag1
+  - tag2
+---
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<h4 id="macos-系统">MacOS 系统</h4>
 
 <h2 id="功能演示">功能演示</h2>
 
@@ -17,7 +52,7 @@
 
 \[\partial_\mu F^{\mu\nu}=J^\nu.\]
 
-<p>可以引用公式 $\eqref{eq: schrodinger}$. 实现方式见 <a href="">md 文件</a>.</p>
+<p>可以引用公式 $\eqref{eq: schrodinger}$. 实现方式见 <a href="https://github.com/QuantumObserverIASTU/QuantumObserverIASTU.github.io/blob/main/_posts/2022-06-16-test.md">md 文件</a>.</p>
 
 <p>包含数学公式的文章, 需在文件头部开启 mathjax 功能</p>
 <div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1

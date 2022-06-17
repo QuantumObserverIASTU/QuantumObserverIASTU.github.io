@@ -5,8 +5,8 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 17 Jun 2022 16:47:15 +0800</pubDate>
-    <lastBuildDate>Fri, 17 Jun 2022 16:47:15 +0800</lastBuildDate>
+    <pubDate>Fri, 17 Jun 2022 23:43:01 +0800</pubDate>
+    <lastBuildDate>Fri, 17 Jun 2022 23:43:01 +0800</lastBuildDate>
     <generator>Jekyll v4.2.1</generator>
     
       <item>
@@ -14,6 +14,78 @@
         <description>&lt;h2 id=&quot;主要内容&quot;&gt;主要内容&lt;/h2&gt;
 
 &lt;p&gt;本站包含对一些科学问题的科普性介绍, 对经典或最新结果尤其是其间联系的评论, 以及针对志在成为专业研究人员的、爱好理论物理的学生的建议等内容.&lt;/p&gt;
+
+&lt;h2 id=&quot;发表短文的方法&quot;&gt;发表短文的方法&lt;/h2&gt;
+
+&lt;p&gt;小组内成员在其 GitHub 账号加入该项目合作者名单后, 可按照下面介绍的方式在本站发表短文, 这里默认操作者掌握 GitHub 的基本操作方式, 如不掌握, 可参考知乎文章 &lt;a href=&quot;https://zhuanlan.zhihu.com/p/337959303&quot;&gt;GitHub 入门指南&lt;/a&gt;. 下面我们分别介绍不进行本地预览与进行本地预览的方式.&lt;/p&gt;
+
+&lt;h3 id=&quot;不进行本地预览&quot;&gt;不进行本地预览&lt;/h3&gt;
+
+&lt;p&gt;本地预览, 即在发布之前, 通过 localhost 在本机上预览发布后的效果. 不进行本地预览, 则只需在 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;\_posts&lt;/code&gt; 目录中建立 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;yyyy-mm-dd-title.md&lt;/code&gt; 的文件, 文件头应为&lt;/p&gt;
+
+&lt;div class=&quot;language-md highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;nn&quot;&gt;---&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;layout&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;post&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;This&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;is&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;title&quot;&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;subtitle&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;This&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;is&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;subtitle&quot;&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;author&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Your&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Name&quot;&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;header-img&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;img/thisfilename/head.jpg&quot;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# if you have a header image. or if you want to have a text style head, see the next line&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# header-style: text &lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;header-mask&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0.4&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;mathjax&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;true&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# if you have equations in your article&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;tags&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;tag1&lt;/span&gt;
+  &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;tag2&lt;/span&gt;
+&lt;span class=&quot;nn&quot;&gt;---&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;正文则使用正常 markdown 语法书写即可.&lt;/p&gt;
+
+&lt;h3 id=&quot;进行本地预览&quot;&gt;进行本地预览&lt;/h3&gt;
+
+&lt;p&gt;进行本地预览则需配置 Jekyll 环境.&lt;/p&gt;
+
+&lt;p&gt;Mac 上环境配置需要注意使用 Homebrew 下载新的 ruby, 具体方法见&lt;a href=&quot;https://zhuanlan.zhihu.com/p/350462079&quot;&gt;这篇文章&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Windows 系统中的配置可参考文档 &lt;a href=&quot;https://jekyllrb.com/docs/installation/&quot;&gt;Jekyll Docs&lt;/a&gt;. 在 &lt;a href=&quot;https://rubyinstaller.org/downloads/&quot;&gt;Downloads (rubyinstaller.org)&lt;/a&gt; 安装 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Ruby+Devkit&lt;/code&gt;. 运行安装文件将其安装到 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;C:/&lt;/code&gt;. 运行&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;gem &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;jekyll bundler
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;配置好后进行初次部署. 使用如下命令预览&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;bundle &lt;span class=&quot;nb&quot;&gt;exec &lt;/span&gt;jekyll server
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;可能会报错&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;cannot load such file &lt;span class=&quot;nt&quot;&gt;--&lt;/span&gt; webrick
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;此时运行 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bundle add webrick&lt;/code&gt; 安装. 再次尝试预览, 一般可以成功.&lt;/p&gt;
+
+&lt;p&gt;环境配置好后, 可通过与不进行本地预览的方法一致的方式在 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;\_posts&lt;/code&gt; 目录中建立 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;yyyy-mm-dd-title.md&lt;/code&gt; 的文件, 随后运行&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;bundle &lt;span class=&quot;nb&quot;&gt;exec &lt;/span&gt;jekyll server
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;预览即可. 预览过程中, 浏览器中内容可即时刷新. 此时已生成对应文件. 因此直接 add - commit - push 即可完成部署.&lt;/p&gt;
 
 &lt;h2 id=&quot;功能演示&quot;&gt;功能演示&lt;/h2&gt;
 
@@ -33,10 +105,27 @@
 &lt;p&gt;可以引用公式 $\eqref{eq: schrodinger}$. 实现方式见 &lt;a href=&quot;https://github.com/QuantumObserverIASTU/QuantumObserverIASTU.github.io/blob/main/_posts/2022-06-16-test.md&quot;&gt;md 文件&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;包含数学公式的文章, 需在文件头部开启 mathjax 功能&lt;/p&gt;
-&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;nt&quot;&gt;mathjax&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;true&lt;/span&gt;
+
+&lt;div class=&quot;language-md highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;mathjax: true
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;出于页面渲染速度的考虑, 我们并未默认在所有页面开启此功能.&lt;/p&gt;
+
+&lt;p&gt;具体实现上, 行内公式通过 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$inline equation$&lt;/code&gt; 实现, 与 LaTeX 相同; 行间公式不编号的实现方式为&lt;/p&gt;
+
+&lt;div class=&quot;language-md highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;$$ display equation $$
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;编号的实现方式为&lt;/p&gt;
+
+&lt;div class=&quot;language-md highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;$$ &lt;span class=&quot;se&quot;&gt;\b&lt;/span&gt;egin{equation} 
+display equation
+&lt;span class=&quot;se&quot;&gt;\e&lt;/span&gt;nd{equation} $$
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;数学公式排版有如下建议:&lt;/p&gt;
 &lt;ul&gt;

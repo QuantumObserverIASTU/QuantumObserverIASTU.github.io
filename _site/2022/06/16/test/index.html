@@ -281,6 +281,78 @@
 
 <p>本站包含对一些科学问题的科普性介绍, 对经典或最新结果尤其是其间联系的评论, 以及针对志在成为专业研究人员的、爱好理论物理的学生的建议等内容.</p>
 
+<h2 id="发表短文的方法">发表短文的方法</h2>
+
+<p>小组内成员在其 GitHub 账号加入该项目合作者名单后, 可按照下面介绍的方式在本站发表短文, 这里默认操作者掌握 GitHub 的基本操作方式, 如不掌握, 可参考知乎文章 <a href="https://zhuanlan.zhihu.com/p/337959303">GitHub 入门指南</a>. 下面我们分别介绍不进行本地预览与进行本地预览的方式.</p>
+
+<h3 id="不进行本地预览">不进行本地预览</h3>
+
+<p>本地预览, 即在发布之前, 通过 localhost 在本机上预览发布后的效果. 不进行本地预览, 则只需在 <code class="language-plaintext highlighter-rouge">\_posts</code> 目录中建立 <code class="language-plaintext highlighter-rouge">yyyy-mm-dd-title.md</code> 的文件, 文件头应为</p>
+
+<div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+</pre></td><td class="rouge-code"><pre><span class="nn">---</span>
+<span class="na">layout</span><span class="pi">:</span> <span class="s">post</span>
+<span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">This</span><span class="nv"> </span><span class="s">is</span><span class="nv"> </span><span class="s">title"</span>
+<span class="na">subtitle</span><span class="pi">:</span> <span class="s2">"</span><span class="s">This</span><span class="nv"> </span><span class="s">is</span><span class="nv"> </span><span class="s">subtitle"</span>
+<span class="na">author</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Your</span><span class="nv"> </span><span class="s">Name"</span>
+<span class="na">header-img</span><span class="pi">:</span> <span class="s2">"</span><span class="s">img/thisfilename/head.jpg"</span> <span class="c1"># if you have a header image. or if you want to have a text style head, see the next line</span>
+<span class="c1"># header-style: text </span>
+<span class="na">header-mask</span><span class="pi">:</span> <span class="m">0.4</span>
+<span class="na">mathjax</span><span class="pi">:</span> <span class="no">true</span> <span class="c1"># if you have equations in your article</span>
+<span class="na">tags</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="s">tag1</span>
+  <span class="pi">-</span> <span class="s">tag2</span>
+<span class="nn">---</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>正文则使用正常 markdown 语法书写即可.</p>
+
+<h3 id="进行本地预览">进行本地预览</h3>
+
+<p>进行本地预览则需配置 Jekyll 环境.</p>
+
+<p>Mac 上环境配置需要注意使用 Homebrew 下载新的 ruby, 具体方法见<a href="https://zhuanlan.zhihu.com/p/350462079">这篇文章</a>.</p>
+
+<p>Windows 系统中的配置可参考文档 <a href="https://jekyllrb.com/docs/installation/">Jekyll Docs</a>. 在 <a href="https://rubyinstaller.org/downloads/">Downloads (rubyinstaller.org)</a> 安装 <code class="language-plaintext highlighter-rouge">Ruby+Devkit</code>. 运行安装文件将其安装到 <code class="language-plaintext highlighter-rouge">C:/</code>. 运行</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>gem <span class="nb">install </span>jekyll bundler
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>配置好后进行初次部署. 使用如下命令预览</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>bundle <span class="nb">exec </span>jekyll server
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>可能会报错</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>cannot load such file <span class="nt">--</span> webrick
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>此时运行 <code class="language-plaintext highlighter-rouge">bundle add webrick</code> 安装. 再次尝试预览, 一般可以成功.</p>
+
+<p>环境配置好后, 可通过与不进行本地预览的方法一致的方式在 <code class="language-plaintext highlighter-rouge">\_posts</code> 目录中建立 <code class="language-plaintext highlighter-rouge">yyyy-mm-dd-title.md</code> 的文件, 随后运行</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>bundle <span class="nb">exec </span>jekyll server
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>预览即可. 预览过程中, 浏览器中内容可即时刷新. 此时已生成对应文件. 因此直接 add - commit - push 即可完成部署.</p>
+
 <h2 id="功能演示">功能演示</h2>
 
 <h3 id="数学公式">数学公式</h3>
@@ -299,10 +371,27 @@
 <p>可以引用公式 $\eqref{eq: schrodinger}$. 实现方式见 <a href="https://github.com/QuantumObserverIASTU/QuantumObserverIASTU.github.io/blob/main/_posts/2022-06-16-test.md">md 文件</a>.</p>
 
 <p>包含数学公式的文章, 需在文件头部开启 mathjax 功能</p>
-<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre><span class="nt">mathjax</span><span class="o">:</span> <span class="nt">true</span>
+
+<div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>mathjax: true
 </pre></td></tr></tbody></table></code></pre></div></div>
 <p>出于页面渲染速度的考虑, 我们并未默认在所有页面开启此功能.</p>
+
+<p>具体实现上, 行内公式通过 <code class="language-plaintext highlighter-rouge">$inline equation$</code> 实现, 与 LaTeX 相同; 行间公式不编号的实现方式为</p>
+
+<div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>$$ display equation $$
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>编号的实现方式为</p>
+
+<div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="rouge-code"><pre>$$ <span class="se">\b</span>egin{equation} 
+display equation
+<span class="se">\e</span>nd{equation} $$
+</pre></td></tr></tbody></table></code></pre></div></div>
 
 <p>数学公式排版有如下建议:</p>
 <ul>
