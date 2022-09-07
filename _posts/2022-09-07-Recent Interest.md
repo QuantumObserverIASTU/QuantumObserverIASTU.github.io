@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "This is a test with Math"
-subtitle: "This is subtitle"
+title: "Recent Interesting Papers"
+subtitle: "Topology, Entanglement, and All That"
 author: "Yingfei Gu"
 #header-img: "img/thisfilename/head.jpg" # if you have a header image. or if you want to have a text style head, see the next line
 #header-style: T1 
