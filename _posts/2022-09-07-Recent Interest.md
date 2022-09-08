@@ -12,11 +12,11 @@ mathjax: true # if you have equations in your article
 #  - tag2
 ---
 
-注意到几篇很有意思的文章：
+注意到近期几篇很有意思的文章，它们有个共同特点是都可以从自由费米子出发得到基本的结论，但是应用范围又更广一些，非常适合初入该领域的学生加深理解：
 
 1. 关于  Fermi Sea Topology 
-    * Quantized Nonlinear Conductance in Ballistic Metals https://arxiv.org/abs/2108.05870
-    * Topological Multipartite Entanglement in a Fermi Liquid https://arxiv.org/abs/2204.06559
+    * Quantized Nonlinear Conductance in Ballistic Metals [arXiv 2108.05870](https://arxiv.org/abs/2108.05870)
+    * Topological Multipartite Entanglement in a Fermi Liquid [arXiv 2204.06559](https://arxiv.org/abs/2204.06559)
 
     第一篇文章是Charles L. Kane的“居家防疫之作”（某次报告中提及，不知是否是玩笑话）。简单的说，他推广了一维的Landauer formula到一般维度，角度很独特。文章读起来有种“清爽”的感觉，一如他过去拓扑绝缘体的那些经典之作。技术上运用了Morse theory这个物理学家屡试不爽的技巧（在凝聚态中的经典成功案例是van Hove singularity），将一个很自然的输运系数和Fermi sea的欧拉示性数联系起来。他提出的公式是如此自然，让人很难相信这样简单的公式在之前没有被发现。我想，这大概是Kane的独特眼光和魅力吧。
 
@@ -24,8 +24,8 @@ mathjax: true # if you have equations in your article
 
 
 2. 关于 Modular (Entanglement) Hamiltonian
-    * Chiral central charge from a single bulk wave function https://arxiv.org/abs/2110.06932
-    * Modular commutator in gapped quantum many-body systems https://arxiv.org/abs/2110.10400
+    * Chiral central charge from a single bulk wave function [arXiv 2110.06932](https://arxiv.org/abs/2110.06932)
+    * Modular commutator in gapped quantum many-body systems [arXiv 2110.10400](https://arxiv.org/abs/2110.10400)
 
     这两篇讲的是一回事（后者是前者的重复和细节版），关于如何从modular Hamiltonian得到热霍尔效应系数（反映到边界上并假设共形对称性，则是边界态的chiral central charge $c_-$）的一个猜想
 
@@ -33,7 +33,9 @@ mathjax: true # if you have equations in your article
 
     其中 $|\psi\rangle$ 是某个二维有能隙哈密顿量的基态，$K_X$ 是某个子区域 $X$ 的modular Hamiltonian，ABC是三个逆时针展开交于一点的三个足够大的子区域（详情请参考上述链接）。
 
-    这个公式很有趣，但作者并没有给出足够令人信服的证据证明其普适性。很有可能未来会有更准确的版本出现，在某个特殊条件下回到上述公式。尤其对于无限维希尔伯特空间的情形，例如量子场论，上述公式中的modular Hamiltonian并不是良好定义的。但不管怎么样，这个公式的含义值得思考。
+    这个公式很有趣，但作者并没有给出足够令人信服的证据证明其普适性。很有可能未来会有更准确的版本出现，在某个特殊条件下回到上述公式。尤其对于无限维希尔伯特空间的情形，例如量子场论，上述公式中的modular Hamiltonian并不是良好定义的。但不管怎么样，这个公式的含义值得思考。一组值得一提的后续工作是从边界CFT的角度理解上述公式
+    * From entanglement generated dynamics to the gravitational anomaly and chiral central charge [arXiv 2206.02823](https://arxiv.org/abs/2206.02823)
+    * Extracting the Quantum Hall Conductance from a Single Bulk Wavefunction [arXiv 2208.11710](https://arxiv.org/abs/2208.11710)
 
 
-上述的工作有个共同特点就都可以从自由费米子出发得到基本的结论，但是应用范围又更广一些，非常适合初入该领域的学生加深理解。
+
