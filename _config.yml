@@ -78,7 +78,7 @@ ga_domain:
 
 # Sidebar settings
 sidebar: true                          # whether or not using Sidebar.
-sidebar-about-description: "Theoretical physics, in Institute for Advanced Study, Tsinghua University."
+sidebar-about-description: "This is a blog run by a group of students and members at the Institute for Advanced Study, Tsinghua University."
 sidebar-avatar:  # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
