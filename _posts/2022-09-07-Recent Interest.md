@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Recent Interesting Papers"
+title: "近期一些有趣的文章"
 subtitle: "Topology, Entanglement, and All That"
 author: "Yingfei Gu"
 #header-img: "img/thisfilename/head.jpg" # if you have a header image. or if you want to have a text style head, see the next line
