@@ -5,7 +5,7 @@ subtitle: "Topology, Entanglement, and all that"
 author: "Yingfei Gu"
 #header-img: "img/thisfilename/head.jpg" # if you have a header image. or if you want to have a text style head, see the next line
 #header-style: T1 
-#header-mask: 0.4
+header-mask: 0.5
 mathjax: true # if you have equations in your article
 tags:
   - recommendations
