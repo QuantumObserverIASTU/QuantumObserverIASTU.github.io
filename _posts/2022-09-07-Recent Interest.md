@@ -31,7 +31,7 @@ mathjax: true # if you have equations in your article
 
     $$i\langle \psi | [K_{AB},K_{BC}] |\psi \rangle = \frac{\pi}{3} c_- $$
 
-    其中 $|\psi\rangle$ 是某个二维有能隙哈密顿量的基态，$K_{X}$ 是某个子区域 $X$ 的modular Hamiltonian，ABC是三个逆时针展开交于一点的三个足够大的子区域（详情请参考上述链接）。
+    其中 $|\psi\rangle$ 是某个二维有能隙哈密顿量的基态，$K_X$ 是某个子区域 $X$ 的modular Hamiltonian，ABC是三个逆时针展开交于一点的三个足够大的子区域（详情请参考上述链接）。
 
     这个公式很有趣，但作者并没有给出足够令人信服的证据证明其普适性。很有可能未来会有更准确的版本出现，在某个特殊条件下回到上述公式。尤其对于无限维希尔伯特空间的情形，例如量子场论，上述公式中的modular Hamiltonian并不是良好定义的。但不管怎么样，这个公式的含义值得思考。
 
