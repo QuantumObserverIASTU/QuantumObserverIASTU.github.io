@@ -1,9 +1,10 @@
 # Site settings
 title: Quantum Observers
 SEOTitle: 量子观察者 | Quantum Observers
-header-img: img/home-bg.jpeg
+header-img: img/home-bg-msk.png
+header-mask: 0.4
 email: quantumobserver.iastu@gmail.com
-description: ""
+description: "test"
 keyword: ""
 url: "https://quantumobserveriastu.github.io"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'

@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "近期一些有趣的文章",
+      "subtitle" : "Topology, Entanglement, and all that",
+      "tags"     : "recommendations",
+      "url"      : "/2022/09/07/Recent-Interest/",
+      "date"     : "2022-09-07 00:00:00 +0800"
+    } ,
+  
+    {
       "title"    : "本站说明",
       "subtitle" : "这个小组主页是用来干什么的",
       "tags"     : "test",
