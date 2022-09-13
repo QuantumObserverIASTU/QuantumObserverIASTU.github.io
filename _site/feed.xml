@@ -5,8 +5,8 @@
     <description>test</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 13 Sep 2022 21:40:02 +0800</pubDate>
-    <lastBuildDate>Tue, 13 Sep 2022 21:40:02 +0800</lastBuildDate>
+    <pubDate>Tue, 13 Sep 2022 21:47:50 +0800</pubDate>
+    <lastBuildDate>Tue, 13 Sep 2022 21:47:50 +0800</lastBuildDate>
     <generator>Jekyll v4.2.1</generator>
     
       <item>
@@ -113,7 +113,7 @@
 
 &lt;p&gt;英文标点符号参照一般规范. 在公式较多的或中英文混排内容较多的中文文档中, 建议使用半角标点, 且标点后加空格.&lt;/p&gt;
 
-&lt;p&gt;在中英混排的句子中, 为了与英文单词之间加空格的习惯保持一致, 建议在英文单词与中文之间也加空格. 例如&lt;/p&gt;
+&lt;p&gt;在中英混排的句子中, 为了与英文单词之间加空格的习惯保持一致, 建议在英文单词与中文之间也加空格.&lt;/p&gt;
 
 &lt;p&gt;中文文段中的行内公式建议与英文中一致, 两边加空格.&lt;/p&gt;
 
