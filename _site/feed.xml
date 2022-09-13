@@ -5,8 +5,8 @@
     <description>test</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 09 Sep 2022 11:32:24 +0800</pubDate>
-    <lastBuildDate>Fri, 09 Sep 2022 11:32:24 +0800</lastBuildDate>
+    <pubDate>Tue, 13 Sep 2022 21:40:02 +0800</pubDate>
+    <lastBuildDate>Tue, 13 Sep 2022 21:40:02 +0800</lastBuildDate>
     <generator>Jekyll v4.2.1</generator>
     
       <item>
@@ -55,18 +55,27 @@
       </item>
     
       <item>
-        <title>本站说明</title>
-        <description>&lt;h2 id=&quot;主要内容&quot;&gt;主要内容&lt;/h2&gt;
+        <title>本站发布说明 Q&amp;A</title>
+        <description>&lt;h2 id=&quot;基本问题&quot;&gt;基本问题&lt;/h2&gt;
 
-&lt;p&gt;本站包含对一些科学问题的科普性介绍, 对经典或最新结果尤其是其间联系的评论, 以及针对志在成为专业研究人员的、爱好理论物理的学生的建议等内容.&lt;/p&gt;
+&lt;h3 id=&quot;q-预设的读者有哪些&quot;&gt;Q: 预设的读者有哪些?&lt;/h3&gt;
 
-&lt;h2 id=&quot;发表短文的方法&quot;&gt;发表短文的方法&lt;/h2&gt;
+&lt;p&gt;A: 对物理感兴趣的本科生、研究生和科研工作者.&lt;/p&gt;
 
-&lt;p&gt;小组内成员在其 GitHub 账号加入该项目合作者名单后, 可按照下面介绍的方式在本站发表短文, 这里默认操作者掌握 GitHub 的基本操作方式, 如不掌握, 可参考知乎文章 &lt;a href=&quot;https://zhuanlan.zhihu.com/p/337959303&quot;&gt;GitHub 入门指南&lt;/a&gt;. 下面我们分别介绍不进行本地预览与进行本地预览的方式.&lt;/p&gt;
+&lt;h3 id=&quot;q-我可以写什么样的内容-举个例子&quot;&gt;Q: 我可以写什么样的内容? 举个例子?&lt;/h3&gt;
 
-&lt;h3 id=&quot;不进行本地预览&quot;&gt;不进行本地预览&lt;/h3&gt;
+&lt;p&gt;A: 只要是认真严肃的内容都可以发表. 例如&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;对基本概念的理解和探讨, “路径积分如何实现算符的作用顺序? “&lt;/li&gt;
+  &lt;li&gt;对有趣工作的推荐, “我觉得…这个工作提出概念很有意思”&lt;/li&gt;
+  &lt;li&gt;对物理有关新闻/人物的讨论, “Witten 最近退休了, 我曾读到他的一个采访…”&lt;/li&gt;
+  &lt;li&gt;对自己工作的背景介绍. “我最近写了一个文章, 是因为思考…的时候想到了…”&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;本地预览, 即在发布之前, 通过 localhost 在本机上预览发布后的效果. 不进行本地预览, 则只需在 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;\_posts&lt;/code&gt; 目录中建立 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;yyyy-mm-dd-title.md&lt;/code&gt; 的文件, 文件头应为&lt;/p&gt;
+&lt;h3 id=&quot;q-发表短文的方法&quot;&gt;Q: 发表短文的方法&lt;/h3&gt;
+
+&lt;p&gt;A: 初次发表需向 quantumobserver.iastu@gmail.com 申请将其 GitHub 账号加入项目合作者名单. 
+然后在 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;\_posts&lt;/code&gt; 目录中建立 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;yyyy-mm-dd-title.md&lt;/code&gt; 的文件, 文件头应为&lt;/p&gt;
 
 &lt;div class=&quot;language-md highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
 2
@@ -98,41 +107,37 @@
 
 &lt;p&gt;正文则使用正常 markdown 语法书写即可.&lt;/p&gt;
 
-&lt;h3 id=&quot;进行本地预览&quot;&gt;进行本地预览&lt;/h3&gt;
+&lt;h2 id=&quot;风格建议&quot;&gt;风格建议&lt;/h2&gt;
 
-&lt;p&gt;进行本地预览则需配置 Jekyll 环境.&lt;/p&gt;
+&lt;h3 id=&quot;标点符号和空格&quot;&gt;标点符号和空格&lt;/h3&gt;
 
-&lt;p&gt;Mac 上环境配置需要注意使用 Homebrew 下载新的 ruby, 具体方法见&lt;a href=&quot;https://zhuanlan.zhihu.com/p/350462079&quot;&gt;这篇文章&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;英文标点符号参照一般规范. 在公式较多的或中英文混排内容较多的中文文档中, 建议使用半角标点, 且标点后加空格.&lt;/p&gt;
 
-&lt;p&gt;Windows 系统中的配置可参考文档 &lt;a href=&quot;https://jekyllrb.com/docs/installation/&quot;&gt;Jekyll Docs&lt;/a&gt;. 在 &lt;a href=&quot;https://rubyinstaller.org/downloads/&quot;&gt;Downloads (rubyinstaller.org)&lt;/a&gt; 安装 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Ruby+Devkit&lt;/code&gt;. 运行安装文件将其安装到 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;C:/&lt;/code&gt;. 运行&lt;/p&gt;
+&lt;p&gt;在中英混排的句子中, 为了与英文单词之间加空格的习惯保持一致, 建议在英文单词与中文之间也加空格. 例如&lt;/p&gt;
 
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;gem &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;jekyll bundler
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;中文文段中的行内公式建议与英文中一致, 两边加空格.&lt;/p&gt;
 
-&lt;p&gt;配置好后进行初次部署. 使用如下命令预览&lt;/p&gt;
+&lt;p&gt;上述标点和空格的风格建议, 简而言之即: 将连续的汉字串看做一个英文单词, 其他与英文习惯相同.&lt;/p&gt;
 
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;bundle &lt;span class=&quot;nb&quot;&gt;exec &lt;/span&gt;jekyll server
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;例如, 下列文段看起来会比较拥挤且标点风格不一致:&lt;/p&gt;
 
-&lt;p&gt;可能会报错&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;牛顿(Isaac Newton)提出了力学的基本定律。牛顿第二定律给出$F=ma$.牛顿的经典力学基于绝对时空观，相对论则将时空统一到了Minkowski空间中。&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;cannot load such file &lt;span class=&quot;nt&quot;&gt;--&lt;/span&gt; webrick
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;更好看的写法为&lt;/p&gt;
 
-&lt;p&gt;此时运行 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bundle add webrick&lt;/code&gt; 安装. 再次尝试预览, 一般可以成功.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;牛顿 (Isaac Newton) 提出了力学的基本定律. 牛顿第二定律给出 $F=ma$. 牛顿的经典力学基于绝对时空观, 相对论则将时空统一到了 Minkowski 空间中.&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;p&gt;环境配置好后, 可通过与不进行本地预览的方法一致的方式在 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;\_posts&lt;/code&gt; 目录中建立 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;yyyy-mm-dd-title.md&lt;/code&gt; 的文件, 随后运行&lt;/p&gt;
+&lt;h3 id=&quot;分段和行间公式&quot;&gt;分段和行间公式&lt;/h3&gt;
 
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;bundle &lt;span class=&quot;nb&quot;&gt;exec &lt;/span&gt;jekyll server
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;因为不必考虑翻页或节约纸张的问题, 网页中一般默认用段间空行而非首行缩进的方式来区分段落, 这也是本站 (也是大部分网页, 包括维基百科) 采用的分段方式. 基于这种分段方式, 我们不建议以行间公式作为一段的结尾, 因为这将和另起一段没有视觉上的差异.&lt;/p&gt;
 
-&lt;p&gt;预览即可. 预览过程中, 浏览器中内容可即时刷新. 此时已生成对应文件. 因此直接 add - commit - push 即可完成部署.&lt;/p&gt;
+&lt;p&gt;上述建议所基于的更直接的原因是, markdown 语言对行间公式的处理中, 公式前的文字、公式、公式后的文字分别是三个 html 的段落. 这也是我们不设置首行缩进的原因: 如果设置了首行缩进, 所有行间公式包括行间公式之后的文字都会缩进, 展示成新的一段, 这显然不是我们期待的效果.&lt;/p&gt;
 
-&lt;h2 id=&quot;功能演示&quot;&gt;功能演示&lt;/h2&gt;
+&lt;h2 id=&quot;基本语法展示&quot;&gt;基本语法展示&lt;/h2&gt;
 
 &lt;h3 id=&quot;数学公式&quot;&gt;数学公式&lt;/h3&gt;
 
@@ -171,12 +176,6 @@
 display equation
 &lt;span class=&quot;se&quot;&gt;\e&lt;/span&gt;nd{equation} $$
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;数学公式排版有如下建议:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;为了避免排版的拥挤, 行内公式最好和两边文字空开一格, 在中文环境中尤其要注意. 不空格例如: 方程$x^2=1$有两个解; 空格例如: 方程 $x^2=1$ 有两个解.&lt;/li&gt;
-  &lt;li&gt;最好不要以行间公式作为一段的结尾. 因为不必考虑翻页或节约纸张的问题, 网页中一般默认用段间空行而非首行缩进的方式来区分段落, 因此公式后起新的一段将和不起新的一段混淆. 另一个原因是该网页 (也是大部分网页, 包括维基百科) 对行间公式的实现实际上对应了 html 中的段落, 即公式前的文字、公式、公式后的文字分别是三个 html 的段落, 这也是公式后不分段与分段无法区分的直接原因, 因此我们约定公式后不分段.&lt;/li&gt;
-&lt;/ul&gt;
 
 &lt;h3 id=&quot;代码块&quot;&gt;代码块&lt;/h3&gt;
 
@@ -251,6 +250,42 @@ display equation
   &lt;/tbody&gt;
 &lt;/table&gt;
 
+&lt;h2 id=&quot;高级配置&quot;&gt;高级配置&lt;/h2&gt;
+
+&lt;h3 id=&quot;本地预览配置&quot;&gt;本地预览配置&lt;/h3&gt;
+
+&lt;p&gt;进行本地预览则需配置 Jekyll 环境.&lt;/p&gt;
+
+&lt;p&gt;Mac 上环境配置需要注意使用 Homebrew 下载新的 ruby, 具体方法见&lt;a href=&quot;https://zhuanlan.zhihu.com/p/350462079&quot;&gt;这篇文章&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Windows 系统中的配置可参考文档 &lt;a href=&quot;https://jekyllrb.com/docs/installation/&quot;&gt;Jekyll Docs&lt;/a&gt;. 在 &lt;a href=&quot;https://rubyinstaller.org/downloads/&quot;&gt;Downloads (rubyinstaller.org)&lt;/a&gt; 安装 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Ruby+Devkit&lt;/code&gt;. 运行安装文件将其安装到 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;C:/&lt;/code&gt;. 运行&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;gem &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;jekyll bundler
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;配置好后进入本地 GitHub 仓库进行初次部署. 使用如下命令预览&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;bundle &lt;span class=&quot;nb&quot;&gt;exec &lt;/span&gt;jekyll server
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;可能会报错&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;cannot load such file &lt;span class=&quot;nt&quot;&gt;--&lt;/span&gt; webrick
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;此时运行 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bundle add webrick&lt;/code&gt; 安装. 再次尝试预览, 一般可以成功.&lt;/p&gt;
+
+&lt;p&gt;环境配置好后, 可通过与不进行本地预览的方法一致的方式在 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;\_posts&lt;/code&gt; 目录中建立 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;yyyy-mm-dd-title.md&lt;/code&gt; 的文件, 随后运行&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;bundle &lt;span class=&quot;nb&quot;&gt;exec &lt;/span&gt;jekyll server
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;预览即可. 预览过程中, 浏览器中内容可即时刷新. 此时已生成对应文件. 因此直接 add - commit - push 即可完成部署.&lt;/p&gt;
+
 &lt;h2 id=&quot;注释&quot;&gt;注释&lt;/h2&gt;
 
 &lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
@@ -264,8 +299,6 @@ display equation
         <pubDate>Thu, 16 Jun 2022 00:00:00 +0800</pubDate>
         <link>http://localhost:4000/2022/06/16/test/</link>
         <guid isPermaLink="true">http://localhost:4000/2022/06/16/test/</guid>
-        
-        <category>test</category>
         
         
       </item>

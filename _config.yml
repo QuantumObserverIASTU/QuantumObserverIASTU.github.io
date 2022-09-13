@@ -101,9 +101,4 @@ page-mathjax: true
 
 
 # Friends
-friends: [
-    {
-        title: "Yifei",
-        href: "https://florestan-eusebius.github.io"
-    }
-]
+# friends: []

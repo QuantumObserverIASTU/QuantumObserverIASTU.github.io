@@ -1,14 +1,23 @@
-I"B-<h2 id="主要内容">主要内容</h2>
+I"Q2<h2 id="基本问题">基本问题</h2>
 
-<p>本站包含对一些科学问题的科普性介绍, 对经典或最新结果尤其是其间联系的评论, 以及针对志在成为专业研究人员的、爱好理论物理的学生的建议等内容.</p>
+<h3 id="q-预设的读者有哪些">Q: 预设的读者有哪些?</h3>
 
-<h2 id="发表短文的方法">发表短文的方法</h2>
+<p>A: 对物理感兴趣的本科生、研究生和科研工作者.</p>
 
-<p>小组内成员在其 GitHub 账号加入该项目合作者名单后, 可按照下面介绍的方式在本站发表短文, 这里默认操作者掌握 GitHub 的基本操作方式, 如不掌握, 可参考知乎文章 <a href="https://zhuanlan.zhihu.com/p/337959303">GitHub 入门指南</a>. 下面我们分别介绍不进行本地预览与进行本地预览的方式.</p>
+<h3 id="q-我可以写什么样的内容-举个例子">Q: 我可以写什么样的内容? 举个例子?</h3>
 
-<h3 id="不进行本地预览">不进行本地预览</h3>
+<p>A: 只要是认真严肃的内容都可以发表. 例如</p>
+<ul>
+  <li>对基本概念的理解和探讨, “路径积分如何实现算符的作用顺序? “</li>
+  <li>对有趣工作的推荐, “我觉得…这个工作提出概念很有意思”</li>
+  <li>对物理有关新闻/人物的讨论, “Witten 最近退休了, 我曾读到他的一个采访…”</li>
+  <li>对自己工作的背景介绍. “我最近写了一个文章, 是因为思考…的时候想到了…”</li>
+</ul>
 
-<p>本地预览, 即在发布之前, 通过 localhost 在本机上预览发布后的效果. 不进行本地预览, 则只需在 <code class="language-plaintext highlighter-rouge">\_posts</code> 目录中建立 <code class="language-plaintext highlighter-rouge">yyyy-mm-dd-title.md</code> 的文件, 文件头应为</p>
+<h3 id="q-发表短文的方法">Q: 发表短文的方法</h3>
+
+<p>A: 初次发表需向 quantumobserver.iastu@gmail.com 申请将其 GitHub 账号加入项目合作者名单. 
+然后在 <code class="language-plaintext highlighter-rouge">\_posts</code> 目录中建立 <code class="language-plaintext highlighter-rouge">yyyy-mm-dd-title.md</code> 的文件, 文件头应为</p>
 
 <div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
@@ -40,41 +49,29 @@
 
 <p>正文则使用正常 markdown 语法书写即可.</p>
 
-<h3 id="进行本地预览">进行本地预览</h3>
+<h2 id="风格建议">风格建议</h2>
 
-<p>进行本地预览则需配置 Jekyll 环境.</p>
+<h3 id="标点符号和空格">标点符号和空格</h3>
 
-<p>Mac 上环境配置需要注意使用 Homebrew 下载新的 ruby, 具体方法见<a href="https://zhuanlan.zhihu.com/p/350462079">这篇文章</a>.</p>
+<p>英文标点符号参照一般规范. 在公式较多的或中英文混排内容较多的中文文档中, 建议使用半角标点, 且标点后加空格.</p>
 
-<p>Windows 系统中的配置可参考文档 <a href="https://jekyllrb.com/docs/installation/">Jekyll Docs</a>. 在 <a href="https://rubyinstaller.org/downloads/">Downloads (rubyinstaller.org)</a> 安装 <code class="language-plaintext highlighter-rouge">Ruby+Devkit</code>. 运行安装文件将其安装到 <code class="language-plaintext highlighter-rouge">C:/</code>. 运行</p>
+<p>在中英混排的句子中, 为了与英文单词之间加空格的习惯保持一致, 建议在英文单词与中文之间也加空格. 例如</p>
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>gem <span class="nb">install </span>jekyll bundler
-</pre></td></tr></tbody></table></code></pre></div></div>
+<p>中文文段中的行内公式建议与英文中一致, 两边加空格.</p>
 
-<p>配置好后进行初次部署. 使用如下命令预览</p>
+<p>上述标点和空格的风格建议, 简而言之即: 将连续的汉字串看做一个英文单词, 其他与英文习惯相同.</p>
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>bundle <span class="nb">exec </span>jekyll server
-</pre></td></tr></tbody></table></code></pre></div></div>
+<p>例如, 下列文段看起来会比较拥挤且标点风格不一致:</p>
 
-<p>可能会报错</p>
+<blockquote>
+  <p>牛顿(Issac Newton)提出了力学的基本定律。牛顿第二定律给出$F=ma$.牛顿的经典力学基于绝对时空观，相对论则将时空统一到了Minkowski空间中。</p>
+</blockquote>
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>cannot load such file <span class="nt">--</span> webrick
-</pre></td></tr></tbody></table></code></pre></div></div>
+<p>更好看的写法为</p>
 
-<p>此时运行 <code class="language-plaintext highlighter-rouge">bundle add webrick</code> 安装. 再次尝试预览, 一般可以成功.</p>
-
-<p>环境配置好后, 可通过与不进行本地预览的方法一致的方式在 <code class="language-plaintext highlighter-rouge">\_posts</code> 目录中建立 <code class="language-plaintext highlighter-rouge">yyyy-mm-dd-title.md</code> 的文件, 随后运行</p>
-
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>bundle <span class="nb">exec </span>jekyll server
-</pre></td></tr></tbody></table></code></pre></div></div>
-
-<p>预览即可. 预览过程中, 浏览器中内容可即时刷新. 此时已生成对应文件. 因此直接 add - commit - push 即可完成部署.</p>
-
-<h2 id="功能演示">功能演示</h2>
+<blockquote>
+  <p>牛顿 (Issac Newton) 提出了力学的基本定律. 牛顿第二定律给出 $F=ma$. 牛顿的经典力学基于绝对时空观, 相对论则将时空统一到了 Minkowski 空间中.</p>
+</blockquote>
 
 <h3 id="数学公式">数学公式</h3>
 
@@ -192,6 +189,42 @@ display equation
     </tr>
   </tbody>
 </table>
+
+<h2 id="高级配置">高级配置</h2>
+
+<h3 id="本地预览配置">本地预览配置</h3>
+
+<p>进行本地预览则需配置 Jekyll 环境.</p>
+
+<p>Mac 上环境配置需要注意使用 Homebrew 下载新的 ruby, 具体方法见<a href="https://zhuanlan.zhihu.com/p/350462079">这篇文章</a>.</p>
+
+<p>Windows 系统中的配置可参考文档 <a href="https://jekyllrb.com/docs/installation/">Jekyll Docs</a>. 在 <a href="https://rubyinstaller.org/downloads/">Downloads (rubyinstaller.org)</a> 安装 <code class="language-plaintext highlighter-rouge">Ruby+Devkit</code>. 运行安装文件将其安装到 <code class="language-plaintext highlighter-rouge">C:/</code>. 运行</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>gem <span class="nb">install </span>jekyll bundler
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>配置好后进行初次部署. 使用如下命令预览</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>bundle <span class="nb">exec </span>jekyll server
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>可能会报错</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>cannot load such file <span class="nt">--</span> webrick
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>此时运行 <code class="language-plaintext highlighter-rouge">bundle add webrick</code> 安装. 再次尝试预览, 一般可以成功.</p>
+
+<p>环境配置好后, 可通过与不进行本地预览的方法一致的方式在 <code class="language-plaintext highlighter-rouge">\_posts</code> 目录中建立 <code class="language-plaintext highlighter-rouge">yyyy-mm-dd-title.md</code> 的文件, 随后运行</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>bundle <span class="nb">exec </span>jekyll server
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>预览即可. 预览过程中, 浏览器中内容可即时刷新. 此时已生成对应文件. 因此直接 add - commit - push 即可完成部署.</p>
 
 <h2 id="注释">注释</h2>
 
