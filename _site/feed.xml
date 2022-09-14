@@ -5,8 +5,8 @@
     <description>test</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 13 Sep 2022 21:47:50 +0800</pubDate>
-    <lastBuildDate>Tue, 13 Sep 2022 21:47:50 +0800</lastBuildDate>
+    <pubDate>Wed, 14 Sep 2022 17:41:25 +0800</pubDate>
+    <lastBuildDate>Wed, 14 Sep 2022 17:41:25 +0800</lastBuildDate>
     <generator>Jekyll v4.2.1</generator>
     
       <item>
@@ -133,9 +133,9 @@
 
 &lt;h3 id=&quot;分段和行间公式&quot;&gt;分段和行间公式&lt;/h3&gt;
 
-&lt;p&gt;因为不必考虑翻页或节约纸张的问题, 网页中一般默认用段间空行而非首行缩进的方式来区分段落, 这也是本站 (也是大部分网页, 包括维基百科) 采用的分段方式. 基于这种分段方式, 我们不建议以行间公式作为一段的结尾, 因为这将和另起一段没有视觉上的差异.&lt;/p&gt;
+&lt;p&gt;因为不必考虑翻页或节约纸张的问题, 网页中一般默认用段间空行而非首行缩进的方式来区分段落, 这也是本站 (也是大部分网页, 包括维基百科) 采用的分段方式. 基于这种分段方式, 我们不建议以行间公式作为一段的结尾, 因为这将和段中的行间公式没有视觉上的差异.&lt;/p&gt;
 
-&lt;p&gt;上述建议所基于的更直接的原因是, markdown 语言对行间公式的处理中, 公式前的文字、公式、公式后的文字分别是三个 html 的段落. 这也是我们不设置首行缩进的原因: 如果设置了首行缩进, 所有行间公式包括行间公式之后的文字都会缩进, 展示成新的一段, 这显然不是我们期待的效果.&lt;/p&gt;
+&lt;p&gt;上述建议所基于的更直接的原因是, markdown 语言对行间公式的处理中, 公式前的文字、公式、公式后的文字分别是三个 html 的段落. 这也是我们不设置首行缩进的原因: 如果设置了首行缩进, 所有行间公式包括行间公式之后的文字都会缩进, 展示成新的一段, 这样就无法实现更常见的行间公式位于段中的效果.&lt;/p&gt;
 
 &lt;h2 id=&quot;基本语法展示&quot;&gt;基本语法展示&lt;/h2&gt;
 
