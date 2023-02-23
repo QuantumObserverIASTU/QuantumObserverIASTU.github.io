@@ -25,3 +25,7 @@ See [this article](https://quantumobserveriastu.github.io/2022/06/16/test/) for 
 ## Edit notifications
 
 Edit [this file](https://github.com/QuantumObserverIASTU/QuantumObserverIASTU.github.io/blob/main/_includes/events/events.md) if you want to add a new notification to the EVENTS page.
+
+## Upload notes
+
+If you want to upload a PDF note, please upload the file to [this directory](https://github.com/QuantumObserverIASTU/QuantumObserverIASTU.github.io/tree/main/notes), and add the information of your note at the beginning of [this file](https://github.com/QuantumObserverIASTU/QuantumObserverIASTU.github.io/blob/main/_includes/notes/notes.md) in a similar way as the existing entries.

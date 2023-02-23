@@ -28,4 +28,4 @@ tags:
 
 ## 上传笔记
 
-如果您希望上传 PDF 格式的笔记，请将文件上传至[该文件夹](https://github.com/QuantumObserverIASTU/QuantumObserverIASTU.github.io/tree/main/_notes)，并编辑
+如果您希望上传 PDF 格式的笔记，请将文件上传至[该文件夹](https://github.com/QuantumObserverIASTU/QuantumObserverIASTU.github.io/tree/main/notes)，并仿照已有内容在[该文件](https://github.com/QuantumObserverIASTU/QuantumObserverIASTU.github.io/blob/main/_includes/notes/notes.md)开头处添加有关信息。
