@@ -1,0 +1,40 @@
+I"�
+<h2 id="get-editing-access">Get editing access</h2>
+
+<p>如果您希望在本站发表帖子、公告等，您需要拥有一个 <a href="https://github.com">GitHub</a> 账号。您可以发送邮件至 <a href="mailto:quantumobserver.iastu@gmail.com">quantumobserver.iastu@gmail.com</a>，或直接联系本站管理员以使您的 GitHub 账号获得编辑权限。</p>
+
+<h2 id="发表帖子">发表帖子</h2>
+
+<p>发表帖子，可以在<a href="https://github.com/QuantumObserverIASTU/QuantumObserverIASTU.github.io/tree/main/_posts">这一目录</a>下新建文件或上传您已经写好的 Markdown 文件。文件名应为 <code class="language-plaintext highlighter-rouge">yyyy-mm-dd-title.md</code>，文件应以如下信息开头。</p>
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+</pre></td><td class="rouge-code"><pre><span class="nn">---</span>
+<span class="na">layout</span><span class="pi">:</span> <span class="s">post</span>
+<span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">This</span><span class="nv"> </span><span class="s">is</span><span class="nv"> </span><span class="s">title"</span>
+<span class="na">subtitle</span><span class="pi">:</span> <span class="s2">"</span><span class="s">This</span><span class="nv"> </span><span class="s">is</span><span class="nv"> </span><span class="s">subtitle"</span>
+<span class="na">author</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Your</span><span class="nv"> </span><span class="s">Name"</span>
+<span class="na">header-img</span><span class="pi">:</span> <span class="s2">"</span><span class="s">img/thisfilename/head.jpg"</span> <span class="c1"># if you have a header image. or if you want to have a text style head, see the next line</span>
+<span class="c1"># header-style: text </span>
+<span class="na">header-mask</span><span class="pi">:</span> <span class="m">0.4</span>
+<span class="na">mathjax</span><span class="pi">:</span> <span class="no">true</span> <span class="c1"># if you have equations in your article</span>
+<span class="na">tags</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="s">tag1</span>
+  <span class="pi">-</span> <span class="s">tag2</span>
+<span class="nn">---</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<h2 id="发表公告">发表公告</h2>
+
+<p>编辑<a href="https://github.com/QuantumObserverIASTU/QuantumObserverIASTU.github.io/blob/main/_includes/events/events.md">该文件</a>以发布新的公告。</p>
+:ET
