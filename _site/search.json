@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "欢迎参加《凝聚态场论》读书会",
+      "subtitle" : "",
+      "tags"     : "活动",
+      "url"      : "/2023/03/09/CMFTSeminar/",
+      "date"     : "2023-03-09 00:00:00 +0800"
+    } ,
+  
+    {
       "title"    : "近期一些有趣的文章",
       "subtitle" : "Topology, Entanglement, and all that",
       "tags"     : "recommendations",
