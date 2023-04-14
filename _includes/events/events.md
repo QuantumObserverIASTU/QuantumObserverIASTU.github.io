@@ -1,3 +1,16 @@
+## Third Session of *Condensed Matter Field Theory* Reading Club 
+
+*Updated on 14sth April 2023*
+
+**Time**: 17:30, Saturday, 15th April 2023.<br>
+**Location**: Conference Hall 322, Science Bvilding, Tsinghua University.<br>
+**Speaker**: Li Xingyu.<br>
+**Related sections**: Part of Chapter 2.
+
+Please check [here](https://quantumobserveriastu.github.io/2023/03/09/CMFTSeminar/) for more information about this Reading Club.
+
+
+
 ## Second Session of *Condensed Matter Field Theory* Reading Club 
 
 *Updated on 31st March 2023*
