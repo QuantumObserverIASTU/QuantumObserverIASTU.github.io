@@ -1,4 +1,4 @@
-## [Notes on unitary designs](../../notes/nitarydesign.pdf)
+## [Notes on unitary designs](../../notes/unitarydesign.pdf)
 
 **Yuzhen Zhang, uploaded on May 9, 2023**
 
