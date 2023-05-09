@@ -1,6 +1,19 @@
+## Fourth Session of *Condensed Matter Field Theory* Reading Club 
+
+*Updated on 9th April 2023*
+
+**Time**: 17:30, Saturday, 13th April 2023.<br>
+**Location**: Conference Hall 322, Science Bvilding, Tsinghua University.<br>
+**Speaker**: Gu Ding.<br>
+**Related sections**: Chapter 3, focused on instantons.
+
+Please check [here](https://quantumobserveriastu.github.io/2023/03/09/CMFTSeminar/) for more information about this Reading Club.
+
+
+
 ## Third Session of *Condensed Matter Field Theory* Reading Club 
 
-*Updated on 14sth April 2023*
+*Updated on 14th April 2023*
 
 **Time**: 17:30, Saturday, 15th April 2023.<br>
 **Location**: Conference Hall 322, Science Bvilding, Tsinghua University.<br>
