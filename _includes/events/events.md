@@ -1,9 +1,9 @@
 ## Fourth Session of *Condensed Matter Field Theory* Reading Club 
 
-*Updated on 9th April 2023*
+*Updated on 9th May 2023*
 
-**Time**: 17:30, Saturday, 13th April 2023.<br>
-**Location**: Conference Hall 322, Science Bvilding, Tsinghua University.<br>
+**Time**: 17:30, Saturday, 13th May 2023.<br>
+**Location**: Conference Hall 322, Science Building, Tsinghua University.<br>
 **Speaker**: Gu Ding.<br>
 **Related sections**: Chapter 3, focused on instantons.
 
@@ -16,7 +16,7 @@ Please check [here](https://quantumobserveriastu.github.io/2023/03/09/CMFTSemina
 *Updated on 14th April 2023*
 
 **Time**: 17:30, Saturday, 15th April 2023.<br>
-**Location**: Conference Hall 322, Science Bvilding, Tsinghua University.<br>
+**Location**: Conference Hall 322, Science Building, Tsinghua University.<br>
 **Speaker**: Li Xingyu.<br>
 **Related sections**: Part of Chapter 2.
 
@@ -29,7 +29,7 @@ Please check [here](https://quantumobserveriastu.github.io/2023/03/09/CMFTSemina
 *Updated on 31st March 2023*
 
 **Time**: 17:30, Saturday, 1st April 2023.<br>
-**Location**: Conference Hall 322, Science Bvilding, Tsinghua University.<br>
+**Location**: Conference Hall 322, Science Building, Tsinghua University.<br>
 **Speaker**: Han Zeyu.<br>
 **Related sections**: Part of Chapter 2.
 
@@ -43,7 +43,7 @@ Please check [here](https://quantumobserveriastu.github.io/2023/03/09/CMFTSemina
 *Updated on 14th March 2023*
 
 **Time**: Saturday, 18th March 2023.<br>
-**Location**: Conference Hall 322, Science Bvilding, Tsinghua University.<br>
+**Location**: Conference Hall 322, Science Building, Tsinghua University.<br>
 **Speaker**: Wang Yi-Fei.<br>
 **Related sections**: Chapter 1 and part of Chapter 2.
 
