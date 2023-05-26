@@ -1,3 +1,17 @@
+## Fifth Session of *Condensed Matter Field Theory* Reading Club 
+
+*Updated on 26th May 2023*
+
+**Time**: 17:30, Saturday, 27th May 2023.<br>
+**Location**: Conference Hall 322, Science Building, Tsinghua University.<br>
+**Speaker**: Guo Ruiping.<br>
+**Related sections**: Chapter 4.
+
+Please check [here](https://quantumobserveriastu.github.io/2023/03/09/CMFTSeminar/) for more information about this Reading Club.
+
+
+
+
 ## Fourth Session of *Condensed Matter Field Theory* Reading Club 
 
 *Updated on 9th May 2023*
