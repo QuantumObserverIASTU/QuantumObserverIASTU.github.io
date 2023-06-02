@@ -2,7 +2,7 @@
 layout: post
 title: "欢迎参加《凝聚态场论》读书会"
 subtitle: ""
-author: "王逸飞"
+author: "Wang Yi-Fei"
 # header-img: "img/thisfilename/head.jpg" # if you have a header image. or if you want to have a text style head, see the next line
 # header-style: text 
 header-mask: 0.4

@@ -5,9 +5,73 @@
     <description>test</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 14 Apr 2023 21:59:26 +0800</pubDate>
-    <lastBuildDate>Fri, 14 Apr 2023 21:59:26 +0800</lastBuildDate>
+    <pubDate>Fri, 02 Jun 2023 10:47:05 +0800</pubDate>
+    <lastBuildDate>Fri, 02 Jun 2023 10:47:05 +0800</lastBuildDate>
     <generator>Jekyll v4.2.1</generator>
+    
+      <item>
+        <title>IASTU Summer Forum: Frontiers of Quantum Metter</title>
+        <description>&lt;p&gt;&lt;strong&gt;Date&lt;/strong&gt;: June 12- June 16, 2023&lt;br /&gt;
+&lt;strong&gt;Venue&lt;/strong&gt;: Conference Hall 104, Institute for Advanced Study, Tsinghua University&lt;/p&gt;
+
+&lt;h2 id=&quot;schedule&quot;&gt;Schedule&lt;/h2&gt;
+
+&lt;h3 id=&quot;monday-june-12&quot;&gt;Monday, June 12&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;10:20&lt;/strong&gt; Opening&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;10:30-12:00&lt;/strong&gt; Chong Wang (王翀), PI&lt;br /&gt;
+Non-zero momentum requires long range entanglement&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;14:00-15:30&lt;/strong&gt; Pengfei Zhang (张鹏⻜), Fudan U&lt;br /&gt; 
+The perturbative Page curve&lt;/p&gt;
+
+&lt;h3 id=&quot;tuesday-june-13&quot;&gt;Tuesday, June 13&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;10:30-12:00&lt;/strong&gt; Yi-Zhuang You (尤亦庄), UCSD&lt;br /&gt; 
+Symmetric mass generation&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;14:00-15:30&lt;/strong&gt; Yi-Fan Jiang (蒋易凡), ShanghaiTech U&lt;br /&gt; 
+Phase diagram and superconductivity of the doped Hubbard model&lt;/p&gt;
+
+&lt;h3 id=&quot;wednesday-june-14&quot;&gt;Wednesday, June 14&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;10:30-12:00&lt;/strong&gt; Zi-Xiang Li (李自翔), IOP CAS&lt;br /&gt; 
+New perspectives on fermion sign problem&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;14:00-15:30&lt;/strong&gt; Biao Lian (廉骉), Princeton University&lt;br /&gt; 
+The quantum breakdown model&lt;/p&gt;
+
+&lt;h3 id=&quot;thursday-june-15&quot;&gt;Thursday, June 15&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;10:30-12:00&lt;/strong&gt; Long Zhang (张⻰), UCAS&lt;br /&gt;
+Exciton condensation in Landau levels&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;14:00-15:30&lt;/strong&gt; Chong Wang (王翀), PI&lt;br /&gt;
+Topological phases with average symmetries&lt;/p&gt;
+
+&lt;h3 id=&quot;friday-june-16&quot;&gt;Friday, June 16&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;10:30-12:00&lt;/strong&gt; Zhen Bi (毕震), PSU&lt;br /&gt;
+Measurement-prepared quantum phases and phase
+transitions&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;14:00-15:30&lt;/strong&gt; Wang Yang (杨望), Nankai U&lt;br /&gt;
+Computational order parameter in measurement-based
+quantum computation&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src=&quot;/img/20230602/posterFinal.jpg&quot; width=&quot;100%&quot; /&gt;
+&lt;!-- &lt;figcaption&gt;caption&lt;/figcaption&gt; --&gt;
+&lt;/figure&gt;
+</description>
+        <pubDate>Fri, 02 Jun 2023 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2023/06/02/IASTUSummerForum/</link>
+        <guid isPermaLink="true">http://localhost:4000/2023/06/02/IASTUSummerForum/</guid>
+        
+        <category>活动</category>
+        
+        
+      </item>
     
       <item>
         <title>欢迎参加《凝聚态场论》读书会</title>
