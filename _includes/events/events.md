@@ -2,16 +2,19 @@
 
 *Updated on 2nd June 2023*
 
-June 12-16 2023. Please check [here](https://quantumobserveriastu.github.io/2023/06/02/IASTUSummerForum/) for more information
+**Date**: June 12- June 16, 2023<br>
+**Venue**: Conference Hall 104, Institute for Advanced Study, Tsinghua University
+
+Please check [here](https://quantumobserveriastu.github.io/2023/06/02/IASTUSummerForum/) for details.
 
 ## Group Meeting
 
 *Updated on 2nd June 2023*
 
-**Title**: Accuracy threshold for topological quantum memory
-**Speaker**: Wang Yi-Fei (王逸飞)
-**Time**: 3:00 pm, Thursday, June 8, 2023
-**Venue**: Backyard (Conference Hall 322 if rainy), Science Building, Tsinghua University
+**Title**: Accuracy threshold for topological quantum memory<br>
+**Speaker**: Wang Yi-Fei (王逸飞)<br>
+**Time**: 3:00 pm, Thursday, June 8, 2023<br>
+**Venue**: Backyard (Conference Hall 322 if rainy), Science Building, Tsinghua University<br>
 **Abstract**: I will review an estimation of the accuracy threshold for a surface code to be a reliable topological quantum memory (arXiv:quant-ph/0110143) and some recent progress (arXiv:2301.05689). This talk will be self-contained so no background for coding theory is required. I will focus on the interplay of computational tasks and physical considerations, while some techniques for implementing quantum computation will not be covered in detail.
 
 ## Fifth Session of *Condensed Matter Field Theory* Reading Club 
