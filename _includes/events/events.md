@@ -1,3 +1,13 @@
+## Group Meeting
+
+*Updated on 8th October 2023*
+
+**Title**: ​Entanglement detection and entanglement measures (I)<br>
+**Speaker**: Yang-Yang Tang (汤炀阳)​<br>
+**Time**: 13:30, Oct 15, 2023 (Sunday)<br>
+**Venue**: Conference Hall 322, Science Building (科学馆), Tsinghua University<br>
+**Abstract**: Entanglement is considered to be the most nonclassical manifestation of quantum formalism. Entanglement detection are some criteria that aims to determining weather a state is entangled, and entanglement measures are functions that attempts to quantify the entanglement of the state. In this talk I will introduce some basic knowledge on entanglement detection and entanglement measures, Some widely used detection criteria and measures, such as PPT criterion and the corresponding negativity, will also be discussed. I will also discuss some recent ideas and results about the calculation of negativity in free quantum field theories. 
+
 ## IASTU SUMMER FORUM: FRONTIERS OF QUANTUM MATTER
 
 *Updated on 2nd June 2023*
